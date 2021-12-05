@@ -1,0 +1,78 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("bg.jpg") no-repeat;
+
+  background-size: cover;
+  font-family: sans-serif;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: #34495e;
+  padding: 10px 20px;
+  
+}
+.login h1 {
+  float: left;
+  border-bottom: 2px solid #27ae60;
+  font-size: 40px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+.text-box {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0;
+  padding: 8px 0;
+  border-bottom: 2px solid #27ae60;
+}
+.text-box input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  width: 80%;
+  font-size: 18px;
+  margin: 0 10px;
+  float: left;
+}
+.text-box i {
+  text-align: center;
+  width: 26px;
+  float: left;
+  color: gray;
+}
+.btn{
+    background: none;
+    width: 100%;
+    border: 2px solid #27ae60;
+    color: #fff;
+    margin: 12px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav ul{
+  display: flex;
+  float: right;
+  margin-right: 50px;
+  
+}
+ 
+nav li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
